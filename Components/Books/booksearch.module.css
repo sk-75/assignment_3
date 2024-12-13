@@ -1,0 +1,53 @@
+/* Booksearch.module.css */
+.container {
+    margin: 20px auto; /* Center horizontally with auto margins */
+    padding: 10px; /* Add padding around the container */
+    border: 5px solid #e40808; /* Light border for the container */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    background-color: rgb(0, 0, 0); /* Light background color */
+    width: 300px; /* Fixed width */
+}
+
+
+.select {
+    padding: 4px; /* Padding for better appearance */
+    border: 1px solid #aaa; /* Border for the select */
+    color:white;
+    background-color:rgb(129, 28, 122);
+    font-size: small; /* Font size for the select */
+    margin-right: 5px;
+}
+
+.button {
+
+    padding: 4px; /* Padding for button */
+    background-color: white; /* Button background color */
+    color: purple; /* Button text color */
+    border: none; /* Remove default border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 1em; /* Font size for button */
+    transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+.button:hover {
+    background-color: #005bb5; /* Darker shade on hover */
+}
+
+.text{
+    color: purple;
+    font-size: larger;
+    padding: 5px;
+    font-weight: bolder;
+}
+
+.link{
+    color: purple;
+    padding: 4px;
+    margin-right: 5px;
+}
+.link:hover
+{
+    background-color: rgb(234, 77, 77);
+}

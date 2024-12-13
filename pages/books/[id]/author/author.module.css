@@ -1,0 +1,26 @@
+.authorBox {
+    border: 1px solid #ccc; /* Light grey border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Padding inside the box */
+    margin: 20px; /* Space outside the box */
+    background-color: #f9f9f9; /* Light background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.authorName {
+    font-size: 28px; /* Font size for author's name */
+    margin-bottom: 10px; /* Space below the name */
+    color: #333; /* Dark color for the name */
+}
+
+.authorBiography {
+    font-size: 18px; /* Font size for biography */
+    line-height: 1.6; /* Line height for better readability */
+    color: #555; /* Dark grey color for the biography */
+}
+
+.notFound {
+    color: red; /* Color for the "not found" message */
+    text-align: center; /* Center align the message */
+    margin: 20px; /* Margin for spacing */
+}

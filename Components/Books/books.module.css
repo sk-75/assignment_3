@@ -1,0 +1,46 @@
+/* books.module.css */
+.bookBox {
+    border: 1px solid #ccc; /* Light grey border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 30px; /* Padding inside the box */
+    margin: 30px; /* Space outside the box */
+    background-color: #f9f9f9; /* Light background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+.bookTitle {
+    font-size: 24px; /* Font size for title */
+    margin-bottom: 10px; /* Space below the title */
+    color: black;
+}
+.bookDescription {
+    font-size: 18px; /* Font size for description */
+    margin-bottom: 10px; /* Space below the description */
+    color: #555; /* Dark grey color for the description */
+}
+.bookPrice {
+    font-size: 16px; /* Font size for price */
+    font-weight: bold; /* Bold price */
+    color: #007bff; /* Bootstrap primary color */
+}
+.bookButton {
+    position: absolute; /* Positioning the button absolutely */
+    right: 35px; /* Distance from the right */
+    padding: 5px 5px; /* Padding for the button */
+    background-color:rgb(85, 5, 150); /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+.bookButton:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+.buttonDetail{
+    position: absolute;
+    padding: 5px 5px; /* Padding for the button */
+    background-color:rgb(85, 5, 150); /* Button background color */
+    color:white; /* Button text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+}

@@ -1,0 +1,17 @@
+/* x.module.css */
+.genreBox {
+    border: 1px solid #ccc; /* Light grey border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 30px; /* Padding inside the box */
+    margin: 30px; /* Space outside the box */
+    background-color: #f9f9f9; /* Light background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    text-align: center; /* Center text horizontally */
+}
+
+.genreTitle {
+    font-size: 35px; /* Font size for genre title */
+    margin-bottom: 10px; /* Space below the title */
+    color: black; /* Text color */
+}
+
